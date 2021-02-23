@@ -1,0 +1,85 @@
+body {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid red;
+}
+
+header, main, footer {
+    width: 600px;
+    position: absolute;
+    left: 32%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    
+
+}
+header img{
+    height: 180px;
+    width: 160px;
+    border: 1px solid #f2f3f3;
+    padding: 10px;
+}
+
+header h1{
+    position: absolute;
+    left: 200px;
+}
+header h1 span {
+    font-size: 0.65em;
+}
+header article {
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    margin: 10px auto;
+    line-height: 1.5em;
+}
+main section.contacts{
+    position: absolute;
+    /* background-color: darkgoldenrod; */
+    top:205px;
+}
+.education_list li {
+    padding: 5px;
+}
+main section.education {
+    position: absolute;
+    /* background-color:cyan; */
+    top:330px;
+}
+
+main section.experience{
+    position: absolute;
+    /* background-color: darkgoldenrod; */
+    top:530px;
+}
+
+main section.experience details {
+    padding: 5px;
+}
+
+main section.experience::after{
+    content: url(img/skills.png);
+}
+
+
+main section.contacts ul {
+    line-height: 1.5em;
+}
+
+footer{
+    top:900px;
+    
+}   
+footer ul li {
+    display: inline-block;
+    padding: 5px;
+    bottom:21px;
+    position: relative;
+}
+
