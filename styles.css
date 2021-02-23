@@ -1,20 +1,8 @@
-body {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border: 1px solid red;
-}
-
 header, main, footer {
-    width: 600px;
-    position: absolute;
-    left: 32%;
+    width: 680px;
     max-width: 100%;
-    height: auto;
-    display: block;
     margin: 0 auto;
+    background-color: lightgrey;
     
 
 }
@@ -27,59 +15,63 @@ header img{
 
 header h1{
     position: absolute;
-    left: 200px;
+    left: 800px;
 }
 header h1 span {
     font-size: 0.65em;
 }
 header p {
     position: absolute;
-    left: 200px;
+    display: block;
+    left: 800px;
     top: 100px;
-    margin: 10px auto;
     line-height: 1.5em;
 }
 main section.contacts{
-    position: absolute;
-    /* background-color: darkgoldenrod; */
-    top:205px;
+    background-color: lightgrey;
+    padding: 0 15px;
 }
-.education_list li {
-    padding: 5px;
-}
+
 main section.education {
-    position: absolute;
-    /* background-color:cyan; */
-    top:330px;
+    background-color: lightgrey;
+    padding: 0 15px;
 }
 
-main section.experience{
-    position: absolute;
-    /* background-color: darkgoldenrod; */
-    top:530px;
-}
-
-main section.experience details {
+main section.education li {
     padding: 5px;
 }
-
-main section.experience::after{
-    content: url(img/skills.png);
+main section.experience{
+    background-color: lightgrey;
+    padding: 0 15px;
 }
 
+.experience details {
+    padding: 5px 0;
+}
 
 main section.contacts ul {
     line-height: 1.5em;
 }
 
+main section.skills{
+    background-color: lightgrey;
+    padding: 5px 15px;
+}
+
+main section.skills li {
+    padding: 4px;
+}
+
 footer{
-    top:900px;
-    
+    display: block;
+    background-color: lightgrey;
 }   
 footer ul li {
     display: inline-block;
     padding: 5px;
-    bottom:21px;
-    position: relative;
 }
 
+footer img {
+    margin-top: 10px;
+    vertical-align: middle;
+}
