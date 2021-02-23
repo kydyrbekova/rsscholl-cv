@@ -1,2 +1,2 @@
 
-https://kydyrbekova.github.io/rsschool-cv/cv
+https://kydyrbekova.github.io/rsschool-cv/
