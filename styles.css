@@ -3,68 +3,68 @@ header, main, footer {
     max-width: 100%;
     margin: 0 auto;
     background-color: lightgrey;
-    
-
 }
-header img{
-    height: 180px;
-    width: 160px;
-    border: 1px solid #f2f3f3;
-    padding: 10px;
+header img {
+    height: 175px;
+    width: 170px;
+    padding: 5px;
+    display: inline;
 }
-
 header h1{
-    position: absolute;
-    left: 800px;
+    vertical-align:text-top;
+    width: 50%;
+    margin-left: 200px;
+    margin-top: -180px;
 }
+
 header h1 span {
     font-size: 0.65em;
 }
 header p {
-    position: absolute;
-    display: block;
-    left: 800px;
-    top: 100px;
-    line-height: 1.5em;
+    margin-left: 200px;
+    margin-top: -10px;
+    line-height: 1.8em;
+    border-bottom: 5px solid lightgrey;
 }
+
 main section.contacts{
-    background-color: lightgrey;
-    padding: 0 15px;
+   padding: 0 15px;
+}
+main section.contacts ul {
+    line-height: 1.5em;
+    margin-top: -10px;
 }
 
 main section.education {
-    background-color: lightgrey;
     padding: 0 15px;
 }
-
+main section.education ul {
+    margin-top: -10px;
+}
 main section.education li {
     padding: 5px;
 }
 main section.experience{
-    background-color: lightgrey;
     padding: 0 15px;
 }
 
 .experience details {
     padding: 5px 0;
-}
-
-main section.contacts ul {
-    line-height: 1.5em;
+    margin-left: 25px;
 }
 
 main section.skills{
-    background-color: lightgrey;
     padding: 5px 15px;
 }
-
+main section.skills ul{
+    margin-top: -10px; 
+}
 main section.skills li {
-    padding: 4px;
+    padding: 2px;    
 }
 
 footer{
     display: block;
-    background-color: lightgrey;
 }   
 footer ul li {
     display: inline-block;
